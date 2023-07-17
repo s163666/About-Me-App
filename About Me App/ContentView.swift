@@ -32,6 +32,8 @@ struct ContentView: View {
                     .font(.subheadline)
                     .padding()
                     .multilineTextAlignment(.center)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
             }
         }
         .padding()
